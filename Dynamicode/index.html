@@ -50,10 +50,10 @@
         </div>
         <div class="random-gen">
             <div class="gen-part"></div>
-            <img src="" alt="" height="150px" width="150px">
+            <img src="" alt="" height="150px" width="150px" id="image">
             <div class="random-details">
-            <p class="random-desc"> </p>
-            <p class="random-infromation"></p>
+            <p class="random-desc" id="random-name"></p>
+            <p class="random-infromation" id="ran-name"></p>
             </div>
             <div class="random-info">
                 <i class="fa-regular fa-user"></i>
@@ -74,4 +74,10 @@
             <button class="button"><a href="">Learn more</a></button>
         </div>
     </section>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("contextmenu",function(event){
+            event.preventDefault();
+        })
+    </script>
 </html>

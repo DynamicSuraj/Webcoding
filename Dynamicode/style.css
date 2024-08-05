@@ -94,7 +94,7 @@
     border: 1px solid black;
     top: 25px;
     left: 295px;
-    background-color: red;
+    background-color: white;
 }
 .body-container .random-gen .random-info{
     height: 88px;
@@ -108,8 +108,9 @@
     align-items: center;
 }
 .body-container .random-gen .random-info  i{
-    color:rgba(128, 128, 128, 0.373);
+    color:rgba(128, 128, 128, 0.503);
     font-size: 30px;
+    cursor: pointer;
 }
 .body-container .random-gen .random-details{
     height: 100px;
@@ -121,8 +122,9 @@
 }
 .body-container .random-gen .random-details .random-desc{
     color: gray;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
+    font-weight: 400;
 }
 .body-container .random-gen .random-details .random-infromation{
     color: black;
@@ -176,6 +178,7 @@
     margin: 10px 0px 0px 20px;
     padding: 1px 6px;
     border: none;
+    cursor: pointer;
 }
 .second-container .sponsor button a{
     font-size: 20px;
